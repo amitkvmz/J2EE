@@ -1,0 +1,26 @@
+<web-app>
+    <servlet>
+        <servlet-name>LS1</servlet-name>
+        <servlet-class>LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LS1</servlet-name>
+        <url-pattern>/LS1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AS</servlet-name>
+        <servlet-class>AboutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AS</servlet-name>
+        <url-pattern>/AS</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>LS2</servlet-name>
+        <servlet-class>logoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LS2</servlet-name>
+        <url-pattern>/LS2</url-pattern>
+    </servlet-mapping>
+</web-app>

@@ -1,0 +1,31 @@
+<web-app>
+	<servlet>
+		<servlet-name>Process_info</servlet-name>
+		<servlet-class>Process_info</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Process_info</servlet-name>
+		<url-pattern>/s1</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Show_info</servlet-name>
+		<servlet-class>Show_info</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Show_info</servlet-name>
+		<url-pattern>/su</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Register</servlet-name>
+		<servlet-class>Register</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Register</servlet-name>
+		<url-pattern>/s2</url-pattern>
+	</servlet-mapping>
+</web-app>

@@ -1,0 +1,26 @@
+<web-app>
+<servlet>
+    <servlet-name>abc</servlet-name>
+    <servlet-class>RegisterUser</servlet-class>
+</servlet>
+<servlet>
+    <servlet-name>bcd</servlet-name>
+    <servlet-class>ShowUser</servlet-class>
+</servlet>
+<servlet>
+    <servlet-name>def</servlet-name>
+    <servlet-class>UserProcess</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>abc</servlet-name>
+    <url-pattern>/RegisterUser</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+    <servlet-name>bcd</servlet-name>
+    <url-pattern>/ShowUser</url-pattern>
+</servlet-mapping>
+<servlet-mapping>
+    <servlet-name>def</servlet-name>
+    <url-pattern>/UserProcess</url-pattern>
+</servlet-mapping>
+</web-app>

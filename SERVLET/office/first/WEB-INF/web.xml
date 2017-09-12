@@ -1,0 +1,18 @@
+<web-app>
+    <servlet>
+        <servlet-name>ServletContextEx</servlet-name>
+        <servlet-class>ServletContextEx</servlet-class>
+    </servlet>
+    <init-param>
+        <param-name>age</param-name>
+        <param-value>43</param-value>
+    </init-param>
+    <servlet-mapping>
+        <servlet-name>ServletContextEx</servlet-name>
+        <url-pattern>/sc</url-pattern>
+    </servlet-mapping>
+    <servlet-param>
+        <param-name>email</param-name>
+        <param-value>xyx@gmail.com</param-value>
+    </servlet-param>
+</web-app>
