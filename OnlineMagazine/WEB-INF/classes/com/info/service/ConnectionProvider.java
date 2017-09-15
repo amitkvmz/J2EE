@@ -20,7 +20,7 @@ public class ConnectionProvider
 		}
 		catch(Exception e)
 		{
-			System.out.println("Error macking connection - "+e);
+			System.out.println("Error in making connection - "+e);
 		}
 		
 		return con;
